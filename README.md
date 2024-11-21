@@ -1,0 +1,1 @@
+his is a simple Netflix clone website built using HTML and CSS. It replicates the layout and basic functionality of Netflix's homepage, showcasing the popular movies, TV shows, and trending content in a responsive and attractive design. This project is purely for learning and demonstration purposes.
