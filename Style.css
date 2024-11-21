@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("bg_image1.jpg");
+    background-repeat: none;
+    background-size: cover;
+    color: white;
+    overflow-x: hidden;
+    
+}
+
+.navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(55, 47, 47);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar__logo img {
+    width: 120px;
+}
+
+.navbar__links ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar__links li {
+    margin-left: 20px;
+}
+
+.navbar__links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar__links a:hover {
+    color: #e9adb0;
+}
+
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero__content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero__content p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.hero__content button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.hero__content button:hover {
+    background-color: #f40612;
+}
+
+.content {
+    padding: 50px 20px;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.content__row {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 20px;
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+
+.content__item img {
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: transform 0.3s;
+}
+
+.content__item img:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+    color: white;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
